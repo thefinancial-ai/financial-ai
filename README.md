@@ -2,14 +2,11 @@
 
 ![thefinancial.ai](./assets/logo.png)
 
-This plugin connects Claude to [thefinancial.ai](https://thefinancial.ai), a financial AI with licensed
-market data and its own analytics. Ask about stocks, ETFs, indices and crypto in plain words and get
-answers computed from thefinancial.ai's data: company financials, prices and technical indicators,
-forecasts and analyst estimates, earnings, stock screens, trading-strategy backtests, options and macro
-data. With your thefinancial.ai account connected, Claude can also read and update your own portfolios,
-watchlist and saved strategies.
+Turn investment ideas into action with Financial AI®. Access proprietary company and macroeconomic forecasts, build and backtest strategies, portfolios, and hedges using natural language, and connect supported brokerage accounts for portfolio monitoring and AI-powered trade execution—all through Claude. Bring predictive insights, strategy testing, and connected execution into one investment workflow.
 
-thefinancial.ai provides information and analysis, not personal investment advice. It cannot place
+This plugin connects Claude to [thefinancial.ai](https://thefinancial.ai)'s MCP server.
+
+thefinancial.ai provides information and analysis, not personal investment advice. This plugin cannot place
 orders or move money.
 
 ## What's in the plugin

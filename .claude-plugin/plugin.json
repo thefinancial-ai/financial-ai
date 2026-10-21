@@ -1,8 +1,8 @@
 {
   "name": "thefinancial-ai",
   "displayName": "thefinancial.ai",
-  "version": "1.0.1",
-  "description": "Financial AI with licensed market data from thefinancial.ai: company financials, prices and technical indicators, forecasts and estimates, stock screens, strategy backtests, options, macro data, and your own thefinancial.ai portfolios and watchlist.",
+  "version": "1.0.2",
+  "description": "Turn investment ideas into action with Financial AI®. Access proprietary company and macroeconomic forecasts, build and backtest strategies, portfolios, and hedges using natural language, and connect supported brokerage accounts for portfolio monitoring and AI-powered trade execution—all through Claude. Bring predictive insights, strategy testing, and connected execution into one investment workflow.",
   "author": {
     "name": "thefinancial.ai",
     "email": "support@thefinancial.ai",
