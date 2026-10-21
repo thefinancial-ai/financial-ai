@@ -1,0 +1,27 @@
+{
+  "name": "financial-ai",
+  "displayName": "financial.ai",
+  "version": "1.0.0",
+  "description": "Financial AI with licensed market data from Financial.AI: company financials, prices and technical indicators, forecasts and estimates, stock screens, strategy backtests, options, macro data, and your own Financial.AI portfolios and watchlist.",
+  "author": {
+    "name": "Financial.AI",
+    "email": "support@thefinancial.ai",
+    "url": "https://thefinancial.ai"
+  },
+  "homepage": "https://github.com/thefinancial-ai/financial-ai#readme",
+  "repository": "https://github.com/thefinancial-ai/financial-ai",
+  "license": "MIT",
+  "keywords": [
+    "finance",
+    "stocks",
+    "market-data",
+    "backtesting",
+    "screening",
+    "portfolio"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://github.com/thefinancial-ai/financial-ai#readme",
+  "supportUrl": "https://thefinancial.ai/contact",
+  "privacyPolicyUrl": "https://thefinancial.ai/privacy-policy",
+  "termsOfServiceUrl": "https://thefinancial.ai/terms-and-conditions"
+}
