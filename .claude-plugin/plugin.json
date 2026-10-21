@@ -1,10 +1,10 @@
 {
-  "name": "financial-ai",
-  "displayName": "financial.ai",
-  "version": "1.0.0",
-  "description": "Financial AI with licensed market data from Financial.AI: company financials, prices and technical indicators, forecasts and estimates, stock screens, strategy backtests, options, macro data, and your own Financial.AI portfolios and watchlist.",
+  "name": "thefinancial-ai",
+  "displayName": "thefinancial.ai",
+  "version": "1.0.1",
+  "description": "Financial AI with licensed market data from thefinancial.ai: company financials, prices and technical indicators, forecasts and estimates, stock screens, strategy backtests, options, macro data, and your own thefinancial.ai portfolios and watchlist.",
   "author": {
-    "name": "Financial.AI",
+    "name": "thefinancial.ai",
     "email": "support@thefinancial.ai",
     "url": "https://thefinancial.ai"
   },

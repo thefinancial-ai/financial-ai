@@ -1,20 +1,20 @@
 ---
-name: financial-ai
-description: Use for questions about stocks, ETFs, indices, crypto, company financials (revenue, earnings, EBITDA, margins, segments), prices, returns, technical indicators, forecasts and analyst estimates, options, macro data, stock screens, trading-strategy backtests, or the user's own Financial.AI portfolios and watchlist. Explains which financial.ai tool fits the request, how to wait for long analyses, and how to present the results and charts.
+name: thefinancial-ai
+description: Use for questions about stocks, ETFs, indices, crypto, company financials (revenue, earnings, EBITDA, margins, segments), prices, returns, technical indicators, forecasts and analyst estimates, options, macro data, stock screens, trading-strategy backtests, or the user's own thefinancial.ai portfolios and watchlist. Explains which thefinancial.ai tool fits the request, how to wait for long analyses, and how to present the results and charts.
 ---
 
-# financial.ai
+# thefinancial.ai
 
-financial.ai is Financial.AI's connector: a financial AI with licensed market data and its own
+This skill belongs to thefinancial.ai's connector, a financial AI with licensed market data and its own
 analytics (prices and technicals, fundamentals, forecasts, screening, backtests, options and portfolio
-analysis). It works through the tools of the `financial-ai` MCP server (`ask_financial_ai`,
+analysis). It works through the tools of the `thefinancial-ai` MCP server (`ask_financial_ai`,
 `search_functions`, `call_function`, `list_skills`, …).
 
 Prices, financials and estimates change daily, so figures in your answer should come from these tools
 rather than from memory.
 
 If none of these tools are available, the connector isn't connected yet: tell the user to connect
-**financial-ai** in the plugin's Connectors tab and sign in with their Financial.AI account.
+**thefinancial-ai** in the plugin's Connectors tab and sign in with their thefinancial.ai account.
 
 ## Pick the tool
 
@@ -50,10 +50,10 @@ analysis. Each skill says which tools to call, in what order, and what the defau
 
 ## Rules
 
-- Say where numbers come from ("Financial.AI") and give their as-of date.
+- Say where numbers come from ("thefinancial.ai") and give their as-of date.
 - If a tool returns no data, say so instead of filling the gap from memory.
 - Account tools act on the signed-in user's own data only. Ask before anything that deletes or
-  overwrites. No orders can be placed through Financial.AI.
+  overwrites. No orders can be placed through thefinancial.ai.
 - Results from `call_function` / `run_python` stay on the server: page them with `get_result`, or give
   the user the CSV/JSON download link.
-- Financial.AI provides information and analysis, not personal investment advice.
+- thefinancial.ai provides information and analysis, not personal investment advice.

@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "financial-ai": {
+    "thefinancial-ai": {
       "type": "http",
       "url": "https://thefinancial.ai/api/finai-mcp"
     }

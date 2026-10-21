@@ -1,40 +1,40 @@
-# financial.ai
+# thefinancial.ai
 
-![financial.ai](./assets/logo.png)
+![thefinancial.ai](./assets/logo.png)
 
-financial.ai connects Claude to [Financial.AI](https://thefinancial.ai), a financial AI with licensed
+This plugin connects Claude to [thefinancial.ai](https://thefinancial.ai), a financial AI with licensed
 market data and its own analytics. Ask about stocks, ETFs, indices and crypto in plain words and get
-answers computed from Financial.AI's data: company financials, prices and technical indicators,
+answers computed from thefinancial.ai's data: company financials, prices and technical indicators,
 forecasts and analyst estimates, earnings, stock screens, trading-strategy backtests, options and macro
-data. With your Financial.AI account connected, Claude can also read and update your own portfolios,
+data. With your thefinancial.ai account connected, Claude can also read and update your own portfolios,
 watchlist and saved strategies.
 
-Financial.AI provides information and analysis, not personal investment advice. It cannot place
+thefinancial.ai provides information and analysis, not personal investment advice. It cannot place
 orders or move money.
 
 ## What's in the plugin
 
 | Component | What it does |
 | --- | --- |
-| `financial-ai` MCP connector (`.mcp.json`) | Connects to Financial.AI's remote MCP server at `https://thefinancial.ai/api/finai-mcp`. All tools run on Financial.AI's servers. |
-| `financial-ai` skill (`skills/financial-ai/SKILL.md`) | Tells Claude which tool fits which request, how to wait for long analyses, and how to present the results and charts. |
+| `thefinancial-ai` MCP connector (`.mcp.json`) | Connects to thefinancial.ai's remote MCP server at `https://thefinancial.ai/api/finai-mcp`. All tools run on thefinancial.ai's servers. |
+| `thefinancial-ai` skill (`skills/financial-ai/SKILL.md`) | Tells Claude which tool fits which request, how to wait for long analyses, and how to present the results and charts. |
 
 The plugin contains no local code: nothing is installed or run on your computer.
 
 ## Requirements
 
-- A Financial.AI account. Create one at [Financial.AI](https://thefinancial.ai).
+- A thefinancial.ai account. Create one at [thefinancial.ai](https://thefinancial.ai).
 - Claude (web, desktop or mobile), Cowork or Claude Code.
 
 ## Connect
 
 1. Install the plugin from the directory.
-2. Open the plugin's **Connectors** tab and connect **financial-ai**.
-3. Claude opens Financial.AI's sign-in page. Sign in with your Financial.AI email and password (or
+2. Open the plugin's **Connectors** tab and connect **thefinancial-ai**.
+3. Claude opens thefinancial.ai's sign-in page. Sign in with your thefinancial.ai email and password (or
    click **Allow** if you are already signed in to the website in that browser).
 
 The connection uses OAuth 2.1: Claude never sees your password, and the access it gets is limited to
-your own Financial.AI account. You can disconnect at any time from Claude's connector settings.
+your own thefinancial.ai account. You can disconnect at any time from Claude's connector settings.
 
 ## Try it
 
@@ -52,12 +52,12 @@ your own Financial.AI account. You can disconnect at any time from Claude's conn
 | --- | --- | --- |
 | `ask_financial_ai` | No | Answers any financial question with a finished analysis: text, tables and the data behind each chart. |
 | `get_company_financials`, `get_stock_price_data`, `screen_stocks`, `backtest_strategy`, `get_market_forecast` | No | The same analysis, focused on one kind of question. |
-| `search_functions`, `describe_functions` | No | Find Financial.AI data functions (prices, fundamentals, estimates, indicators, macro series, options, ETF holdings) and read their documentation. |
+| `search_functions`, `describe_functions` | No | Find thefinancial.ai data functions (prices, fundamentals, estimates, indicators, macro series, options, ETF holdings) and read their documentation. |
 | `call_function` | No | Fetches data from one function and returns a compact summary plus a handle to the full result. |
 | `get_result` | No | Pages through a stored result. Results are kept for 24 hours. |
-| `run_python` | No | Runs a Python analysis (pandas, numpy) in Financial.AI's isolated sandbox, next to the data, and returns only the answer. |
+| `run_python` | No | Runs a Python analysis (pandas, numpy) in thefinancial.ai's isolated sandbox, next to the data, and returns only the answer. |
 | `list_skills`, `get_skill` | No | Load step-by-step workflows for research, screening, backtesting, options, macro and portfolio reviews. |
-| `call_write_function` | **Yes** | Changes your Financial.AI account: manual portfolios, watchlist, saved strategies and screeners, notification settings. Claude asks for your confirmation before each call. |
+| `call_write_function` | **Yes** | Changes your thefinancial.ai account: manual portfolios, watchlist, saved strategies and screeners, notification settings. Claude asks for your confirmation before each call. |
 
 Long analyses (backtests, multi-strategy comparisons) can take several minutes. The tools return a
 progress handle while they run, and Claude collects the result when it is ready.
@@ -66,11 +66,11 @@ progress handle while they run, and Claude collects the result when it is ready.
 
 - **What is sent:** the questions you ask through these tools and the arguments of each tool call. The
   plugin does not read your conversation history, your files or Claude's memory.
-- **Where it goes:** only to Financial.AI (`https://thefinancial.ai`). Financial.AI processes your
+- **Where it goes:** only to thefinancial.ai (`https://thefinancial.ai`). thefinancial.ai processes your
   request with its own AI agent and data services, as described in its
   [privacy policy](https://thefinancial.ai/privacy-policy).
-- **What is stored:** tool results are kept on Financial.AI's servers for 24 hours so they can be paged
-  and downloaded. Changes you make with `call_write_function` are saved to your Financial.AI account.
+- **What is stored:** tool results are kept on thefinancial.ai's servers for 24 hours so they can be paged
+  and downloaded. Changes you make with `call_write_function` are saved to your thefinancial.ai account.
 - **Downloads:** some results include a CSV or JSON download link. The link is signed, expires, and is
   the only credential needed to open it, so share it only with people who may see that data.
 
@@ -91,5 +91,5 @@ progress handle while they run, and Claude collects the result when it is ready.
 ## License
 
 The plugin files in this repository (manifest, skill and documentation) are released under the
-[MIT License](./LICENSE). Use of the Financial.AI service is governed by its
+[MIT License](./LICENSE). Use of the thefinancial.ai service is governed by its
 [terms and conditions](https://thefinancial.ai/terms-and-conditions).
