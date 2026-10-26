@@ -1,7 +1,7 @@
 {
   "name": "thefinancial-ai",
-  "displayName": "thefinancial.ai",
-  "version": "1.0.3",
+  "displayName": "Financial AI®",
+  "version": "1.0.4",
   "description": "Bring Financial AI’s investment intelligence directly into Claude. Explore company research, proprietary financial and macroeconomic forecasts, and strategy backtesting through natural conversation. The platform incorporates a comprehensive set of technical, economic, and valuation indicators and enables strategies across equities, ETFs, options, futures, cryptocurrencies, and other asset classes, tailored to specific user requirements and investment objectives.",
   "author": {
     "name": "thefinancial.ai",

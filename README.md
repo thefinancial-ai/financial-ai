@@ -1,4 +1,4 @@
-# thefinancial.ai
+# Financial AI®
 
 ![thefinancial.ai](./assets/logo.png)
 
