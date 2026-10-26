@@ -1,8 +1,8 @@
 {
   "name": "thefinancial-ai",
   "displayName": "thefinancial.ai",
-  "version": "1.0.2",
-  "description": "Turn investment ideas into action with Financial AI®. Access proprietary company and macroeconomic forecasts, build and backtest strategies, portfolios, and hedges using natural language, and connect supported brokerage accounts for portfolio monitoring and AI-powered trade execution—all through Claude. Bring predictive insights, strategy testing, and connected execution into one investment workflow.",
+  "version": "1.0.3",
+  "description": "Bring Financial AI’s investment intelligence directly into Claude. Explore company research, proprietary financial and macroeconomic forecasts, and strategy backtesting through natural conversation. The platform incorporates a comprehensive set of technical, economic, and valuation indicators and enables strategies across equities, ETFs, options, futures, cryptocurrencies, and other asset classes, tailored to specific user requirements and investment objectives.",
   "author": {
     "name": "thefinancial.ai",
     "email": "support@thefinancial.ai",

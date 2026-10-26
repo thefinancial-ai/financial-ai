@@ -2,7 +2,21 @@
 
 ![thefinancial.ai](./assets/logo.png)
 
-Turn investment ideas into action with Financial AI®. Access proprietary company and macroeconomic forecasts, build and backtest strategies, portfolios, and hedges using natural language, and connect supported brokerage accounts for portfolio monitoring and AI-powered trade execution—all through Claude. Bring predictive insights, strategy testing, and connected execution into one investment workflow.
+**Financial AI® — Research, Forecasts & Strategy Backtesting**
+
+Bring Financial AI’s investment intelligence directly into Claude. Explore company research, proprietary financial and macroeconomic forecasts, and strategy backtesting through natural conversation. The platform incorporates a comprehensive set of technical, economic, and valuation indicators and enables strategies across equities, ETFs, options, futures, cryptocurrencies, and other asset classes, tailored to specific user requirements and investment objectives.
+
+### What you can do
+
+- **Research investments:** Analyze companies, sectors, and market developments.
+- **Look ahead:** Explore company financial forecasts and macroeconomic projections.
+- **Test ideas:** Build and backtest investment strategies before putting capital to work.
+
+### Try asking
+
+- “Based on Financial AI’s forecasts, do you think AMD will deliver upside surprise?”
+- “Based on the current momentum of MU, provide an otm put option list on MU up to 60 days to expiration for a $200 to $1500 credit with minimal assignment risk”
+- “Backtest buying NASDAQ futures when bar close price is below its 20 period moving average on 1 min bars, and on 10 min bars, its 5 period moving average is below its 20 period moving average with 0 bp transaction cost”
 
 This plugin connects Claude to [thefinancial.ai](https://thefinancial.ai)'s MCP server.
 
